@@ -67,3 +67,43 @@ Link do relatório publicado: ...
 ## Referências
 - Repositório de apoio: https://github.com/julianazanelatto/power_bi_analyst
 - Documentação Power BI: https://learn.microsoft.com/power-bi/
+
+## Guia rápido para entregar na DIO
+
+Use esta lista como roteiro para replicar o projeto no seu ambiente, publicar e enviar o link no desafio da DIO.
+
+1) Preparar o arquivo
+- Baixe/clone este repositório (ou faça fork do repositório da instrutora para manter referência) e abra no Power BI Desktop.
+- Conecte-se à sample financials: use os CSVs em `dataset/` ou importe direto do repositório da instrutora.
+- Aplique um dos temas em `Módulo 2/Criando Dashborads/Theme.json` (ou `Nowalls Analytics Theme.json`).
+
+2) Construir as páginas
+- Páginas 1 e 2: replique a estrutura vista nas aulas (layout, botões de navegação, segmentadores, indicadores para alternar visuais). Certifique-se de que os botões navegam entre as páginas.
+- Página 3 (nova): inclua os três visuais solicitados neste README (dois mapas e uma pizza) com títulos claros, tooltips ricos e disposição organizada.
+
+3) Navegação e segmentadores
+- Crie botões de navegação entre páginas e associe imagens quando fizer sentido.
+- Use indicadores + botões para alternar visuais sobre o mesmo assunto, seguindo o padrão da aula.
+- Adicione segmentadores principais (ex.: Ano, Segment, Country) e formate-os de forma consistente.
+
+4) Publicar
+- No Power BI Desktop: Home > Publish > escolha o workspace no Power BI Service.
+- No Power BI Service: abra o relatório publicado, valide filtros e navegação. Copie a URL pública (ou de acesso interno, se for o caso) para entrega.
+- Opcional: insira o relatório no PowerPoint via suplemento Power BI e exporte um PDF com capturas (útil para anexar no repositório).
+
+5) Entregar no GitHub/DIO
+- No repositório, adicione em `Módulo 2/Desafio de Projeto/entrega/`:
+   - O arquivo `.pbix` final (se permitido pelo tamanho), e/ou
+   - Um `LINK.md` com a URL publicada do relatório, e
+   - Capturas de tela dos visuais (PNG/JPG) para evidência.
+- Atualize o campo "Link do relatório publicado" acima com a URL copiada do Power BI Service.
+- Faça commit/push das evidências e envie o link do repositório na submissão da DIO.
+
+Checklist final antes de enviar
+- [ ] Páginas 1 e 2 replicadas com layout e botões funcionais
+- [ ] Segmentadores e botões com imagens/estados configurados
+- [ ] Página 3 com mapas (Sales/Units, Profit) e pizza (Profit por Segment)
+- [ ] Tooltips conferidos (Sales, Units, Profit, Country/Segment)
+- [ ] Tema aplicado e títulos claros
+- [ ] Relatório publicado e link adicionado neste README
+- [ ] Evidências salvas em `entrega/`

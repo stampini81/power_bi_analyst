@@ -9,7 +9,7 @@ Repositório relacionado a formação de Power BI Analyst
 
 ## Entrega (DIO)
 
-- Relatório final: `Relatório Gráfico.pbix` na raiz do repositório.
+- Relatório final: `Módulo 2/Desafio de Projeto/Relatório Gráfico.pbix`.
 - Guia de entrega e checklist: `Módulo 2/Desafio de Projeto/README.md`.
 - URL publicada (preencher): `Módulo 2/Desafio de Projeto/entrega/LINK.md`.
 - Evidências (prints/PBIX adicional, se necessário): pasta `Módulo 2/Desafio de Projeto/entrega/`.
